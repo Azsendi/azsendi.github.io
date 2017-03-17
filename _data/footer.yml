@@ -8,24 +8,31 @@ top: true
 links: footer
 
 # The optional heading for the footer.
-heading: Name of agency
+heading: National Aeronautics and Space Administration
 
 # An array of agency logos to show, side by side, in the lower left
 # of the footer on large screens.
 logos:
-  - src: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
-    alt: 18F
-  - src: https://18f.gsa.gov/assets/img/logos/gsa-logo.svg
-    alt: GSA
+  - src: /assets/img/logo-nasa.svg
+    alt: NASA
 
 contact:
   links:
-    - text: USA
-      href: https://usa.gov/
+    - text: Twitter
+      href: https://twitter.com/NASAglenn
+      type: twitter
+    - text: Facebook
+      href: https://www.facebook.com/NASAGlenn/
+      type: facebook
+    - text: YouTube
+      href: https://www.youtube.com/nasaglenn
+      type: youtube
 
-  heading: Contact us
+  heading: Glenn Research Center
 
   address: |
-    [GitHub](https://github.com/18F/web-design-standards)
-
-    [uswebdesignstandards@gsa.gov](mailto:uswebdesignstandards@gsa.gov)
+    21000 Brookpark Road  
+    Cleveland, OH 44135  
+    (216) 433-4000
+    
+    [Contact Us](https://www.nasa.gov/centers/glenn/about/grcfaq.html)
